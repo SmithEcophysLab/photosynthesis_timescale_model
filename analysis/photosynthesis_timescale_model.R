@@ -199,7 +199,7 @@ oldleaf_em_HL_day0_jmax <- subset(oldleaf_em_HL_day0, trait == 'jmax')$emmean
 oldleaf_em_HL_day0_phi2 <- subset(oldleaf_em_HL_day0, trait == 'Phi2')$emmean
 
 #### run model
-oldleaf_HL_day0_simulation <- photosynthesis_model(par = 600, 
+oldleaf_HL_day0_simulation <- photosynthesis_model(par = 1100, 
                                                    vcmax = oldleaf_em_HL_day0_vcmax,
                                                    jmax = oldleaf_em_HL_day0_jmax,
                                                    phi_psii = oldleaf_em_HL_day0_phi2)
